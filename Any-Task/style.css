@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&display=swap');
+
+:root{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+    font-family: 'REM', sans-serif;
+}
+.container{
+    background-color: white;
+    position: absolute;
+    border-radius: 11px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    border: 2px orange;
+    
+
+}
+hr{
+    width: 283px;
+    border-top: 3px solid orange;
+}
+#dates{
+    font-weight: 600;
+    padding: 43px;
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 3px;
+}
+#add__item{
+    margin-top: 23px;
+    margin-bottom: 17px;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid orange;
+    border-radius: 9px;
+}
+#add{
+    margin-left: 13px;
+    width: 90%;
+    padding: 10px;
+    font-size: 19px;
+    color: orange;
+    border: none;
+    outline: none;
+}
+#submission{
+    width: 46px;
+    height: 42px;
+    border-radius: 9px;
+    border: none;
+    background: orange;
+    font-size: 41px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.items{
+    margin-left: 15px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.item__name{
+    font-size: 23px;
+    margin-left: 8px;
+}
+input[type=checkbox]{
+    width: 19px;
+    height: 15px;
+    accent-color: orange;
+    cursor: pointer;
+}
+#clear{
+    width: 100%;
+    height: 38px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 11px;
+    background: orange;
+    border: none;
+    color: white;
+    text-shadow: 1px 1px 7px white;
+    font-weight: 600;
+    cursor: pointer;
+}
